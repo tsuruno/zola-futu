@@ -3,7 +3,7 @@ description = "Futu Theme"
 # An optional tags to allow quick search
 tags = []
 license = "MIT"
-homepage = "https://github.com/inhzus/zola.inhzus.io/"
+homepage = "https://github.com/inhzus/zola-futu/"
 # The minimum version of Zola required
 min_version = "0.20.0"
 # An optional live demo URL
