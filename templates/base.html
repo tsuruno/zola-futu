@@ -72,9 +72,14 @@
     {% block main %}{% endblock %}
   </main>
   <footer>
-    {%- block footer %}
+    {%- block footer -%}
+    {%- if config.extra.zola_version -%}
+      {%- set generator = "zola " ~ config.extra.zola_version -%}
+    {%- else -%}
+      {%- set generator = "zola " ~ get_env(name="ZOLA_VERSION", default="0.20.0") -%}
+    {%- endif %}
     <p>
-      Powered by <a target="_blank" rel="noopener" href="https://www.getzola.org">zola</a>
+      Powered by <a target="_blank" rel="noopener" href="https://www.getzola.org">{{ generator }}</a>
       | Theme <a target=_blank rel=noopener href=https://github.com/inhzus/zola-futu>futu@main</a>
     </p>
     {%- endblock %}
