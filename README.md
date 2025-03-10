@@ -4,7 +4,7 @@ Zola-futu is a clean and fast theme for [Zola](https://www.getzola.org) SSG. It'
 
 See a live preview here: [https://inhzus.io](https://inhzus.io).
 
-![image.png](https://s2.loli.net/2025/03/07/PYHW5M3ru6QLn7x.png)
+![image.png](screenshot.png)
 
 ## Quick Start
 
