@@ -33,3 +33,4 @@ For more detailed instructions, visit the [Documentation](https://www.getzola.or
 - [Twitter cards](https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards) & [OpenGraph Protocol](https://ogp.me)
 - Support for [Google Analystics](https://developers.google.com/analytics) & [Microsoft Clarity](https://clarity.microsoft.com)
 - [Follow.app](https://follow.is) feed claim
+- [Mastodon](https://joinmastodon.org/) integration

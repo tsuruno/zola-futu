@@ -41,6 +41,7 @@
   {%- if config.extra.googleVerification %}
   <meta name="google-site-verification" content="{{ config.extra.googleVerification }}" />
   {%- endif %}
+  {%- block custom_meta %}{% endblock %}
 </head>
 
 <body>
